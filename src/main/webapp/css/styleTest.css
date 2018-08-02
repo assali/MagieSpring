@@ -1,0 +1,146 @@
+#container{
+    width: 75%;
+    height: auto;
+    background-color: white;
+}
+header{
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: white;
+    flex-direction: column;
+    font-family: 'Gaegu', cursive;
+    font-family: 'Chela One', cursive;
+
+}
+#contenu{
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Gaegu', cursive;
+    font-family: 'Chela One', cursive;
+}
+body{
+    display: flex;
+    width: 97vw;
+    height: 100vh;
+    justify-content: center;
+    padding: 14px;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height:10% ;
+    align-items: center;
+    font-family: 'Gaegu', cursive;
+    font-family: 'Chela One', cursive;
+}
+nav{
+    font-family: 'Gaegu', cursive;
+    font-family: 'Chela One', cursive;
+}
+footer h6{
+    margin-left: 335px;
+}
+
+nav ol li a:hover{
+    font-size: 15px;   
+    text-decoration: none;
+    color: black;
+}
+nav ol li a{
+    text-decoration: none;
+    color: black;
+}
+.image { 
+    position: relative; 
+    width: 120%;
+}
+
+h2 { 
+    position: absolute; 
+    top: 150px;
+    left: 18px;
+    width: 100%; 
+    transition: transform 2s linear 1s;
+}
+.flags{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flags a{
+    margin-right: 10px;
+}
+header div h2:hover{ 
+    transform: translateX(100px);
+}
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+}
+.linkStyle{
+    text-decoration: none;
+    color: black;
+
+}
+.linkStyle:hover{
+
+    font-size: 15px;   
+    text-decoration: none;
+    color: black;
+}
+tr td div img{
+
+    width: 100px;
+    height: 100px;
+}
+.carte{
+    max-width: 200px; max-height: 150px;
+    border: 2px solid black;
+
+}
+.joueur{
+    max-width: 200px; max-height: 150px;
+      border: 2px solid black;
+
+}
+.carte:hover{
+      animation: blink 1s;
+     
+}
+.joueur:hover{
+      animation: blink 1s;
+}
+.carteDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
